@@ -35,7 +35,7 @@ def main():
     pill_bottle = Bottle(275)
     counts = pill_bottle.getPillCounts()
     total_pills = counts["wholes"] + counts["halves"]
-    difference = counts["wholes"] + counts["halves"]
+    difference = counts["wholes"] - counts["halves"]
     daily_record = [day, counts["wholes"], counts["halves"], difference]
     daily_records = [daily_record]
 
@@ -46,7 +46,7 @@ def main():
 
         #create a new daily record
         total_pills = counts["wholes"] + counts["halves"]
-        difference = counts["wholes"] + counts["halves"]
+        difference = counts["wholes"] - counts["halves"]
         daily_record = [day, counts["wholes"], counts["halves"], difference]
         daily_records.append(daily_record)
 
