@@ -15,7 +15,7 @@ This project aims to plot the daily:
 To run the simulation:
   1. Download and unzip the project.
   2. Open a terminal/command prompt.
-  3. Navigate (cd> to the directory that contains the python modules you unzipped.
+  3. Navigate (cd) to the directory that contains the python modules you unzipped.
   4. Type 'python3 pill_bottle_simulator.py' at the command prompt.
   5. The result will be written to 'pill_bottle_output.csv'.
 
