@@ -14,9 +14,9 @@ This project aims to plot the daily:
 
 To run the simulation:
   1. Download and unzip the project.
-  2. Open a terminal/command prompt.
-  3. Navigate (cd) to the directory that contains the python modules you unzipped.
-  4. Type 'python3 pill_bottle_simulator.py' at the command prompt.
+  2. Open a command prompt.
+  3. Navigate to the directory that contains the python modules you unzipped.
+  4. Type 'python pill_bottle_simulator.py' or 'python3 pill_bottle_simulator.py' at the command prompt.
   5. The result will be written to 'pill_bottle_output.csv'.
 
-After running the simulator, you can open the .csv file in Excel/Libre Office Calc and plot the data points.  My personal preference is to use a scatter plot.
+The simulation consumes a bottle of 275 pills and keeps track of the daily counts of half pills and whole pills.  It does this 100 times and averages the results.  After running the simulator, you can open the .csv file in Excel/Libre Office Calc and plot the data points.  You can edit the 'number_of_runs' and/or the 'number_of_pills_per_bottle' in pill_bottle_simulator.py's main() function to change up the simulation.
