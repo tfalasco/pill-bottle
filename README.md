@@ -12,3 +12,11 @@ This project aims to plot the daily:
   2. Count of half pills left in the bottle
   3. Difference between the count of whole pills and count of half pills in the bottle
 
+To run the simulation:
+  1. Download and unzip the project.
+  2. Open a terminal/command prompt.
+  3. Navigate (cd> to the directory that contains the python modules you unzipped.
+  4. Type 'python3 pill_bottle_simulator.py' at the command prompt.
+  5. The result will be written to 'pill_bottle_output.csv'.
+
+After running the simulator, you can open the .csv file in Excel/Libre Office Calc and plot the data points.  My personal preference is to use a scatter plot.
